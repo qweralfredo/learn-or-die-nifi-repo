@@ -16,6 +16,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
+            "id" : "d873f523-6914-3488-8229-8a31f1bb4341",
+            "instanceIdentifier" : "25ad1015-0191-1000-4a6a-cdfd171ed4ff",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
+          "identifier" : "5437b336-7572-34c7-aa15-90a054269dbb",
+          "instanceIdentifier" : "25ad3310-0191-1000-ebb6-dfa9c065f405",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
+            "id" : "b046a8f7-7e51-33cc-b5bb-2f8eb0ce548d",
+            "instanceIdentifier" : "1b6c5c5a-0191-1000-df35-3fc79096f1ec",
+            "name" : "Funnel",
+            "type" : "FUNNEL"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
             "id" : "b046a8f7-7e51-33cc-b5bb-2f8eb0ce548d",
             "instanceIdentifier" : "1b6c5c5a-0191-1000-df35-3fc79096f1ec",
             "name" : "Funnel",
@@ -54,8 +87,17 @@
           "identifier" : "b046a8f7-7e51-33cc-b5bb-2f8eb0ce548d",
           "instanceIdentifier" : "1b6c5c5a-0191-1000-df35-3fc79096f1ec",
           "position" : {
-            "x" : 536.0,
-            "y" : 288.0
+            "x" : 696.0,
+            "y" : 192.0
+          }
+        }, {
+          "componentType" : "FUNNEL",
+          "groupIdentifier" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
+          "identifier" : "d873f523-6914-3488-8229-8a31f1bb4341",
+          "instanceIdentifier" : "25ad1015-0191-1000-4a6a-cdfd171ed4ff",
+          "position" : {
+            "x" : 303.0,
+            "y" : 229.0
           }
         } ],
         "identifier" : "33a4fa88-3fe5-3b7f-8f0b-c0a17aa81987",
@@ -65,8 +107,8 @@
         "name" : "LORD-nifi-read-file",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 352.0,
-          "y" : 8.0
+          "x" : 536.0,
+          "y" : 64.0
         },
         "processGroups" : [ ],
         "processors" : [ {
